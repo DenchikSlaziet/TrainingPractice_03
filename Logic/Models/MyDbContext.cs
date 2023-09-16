@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Models
 {
-    public class MyDbContext:DbContext
+    public class MyDbContext: DbContext
     {
         public MyDbContext():base("DbConectionStringHome")
         { 
